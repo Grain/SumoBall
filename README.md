@@ -6,6 +6,6 @@ Player 1 controls:
 WASD to move, R/T for speed boosts, F/G to shoot
 
 Player 2 controls:
-UHJK to move, I/O for speed boosts, L/; to shoot
+UHJK to move, O/P for speed boosts, L/; to shoot
 
 Made by me and [xenoryt](https://github.com/xenoryt).
