@@ -1,8 +1,8 @@
 all: game
 	
 
-game: main.o player.o game.o skill.o
-	g++ main.o player.o game.o skill.o -o game -lsfml-graphics -lsfml-window -lsfml-system
+game: main.o player.o game.o projectile.o
+	g++ main.o player.o game.o projectile.o -o game -lsfml-graphics -lsfml-window -lsfml-system
 
 main.o:
 	g++ -c main.cpp 
@@ -13,5 +13,5 @@ player.o:
 game.o:
 	g++ -c game.cpp
 
-skill.o:
-	g++ -c skill.cpp
+projectile.o:
+	g++ -c projectile.cpp
